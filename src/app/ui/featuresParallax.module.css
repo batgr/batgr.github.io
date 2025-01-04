@@ -1,0 +1,130 @@
+.scroller {
+  height: 100vh;
+  width: 100vw;
+}
+
+.textWrap {
+  position: relative;
+  overflow: hidden;
+  width: 450px;
+  height: 80vh;
+}
+
+.panelText {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  /* background-color: #070707; */
+  /* opacity: 0; */
+  /* transform: translateY(100%); */
+  /* opacity: 0; */
+  /* transform: translateY(20%); */
+}
+.list {
+  list-style: none;
+  font-size: 0.5em;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 2px 2px rgb(246, 245, 245);
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textPos1 {
+  transform: translateY(100%);
+}
+.textPos2 {
+  transform: translateY(200%);
+}
+/* .textPos0 {
+  transform: translateY(30%);
+}
+.textPos1 {
+  transform: translateY(100%);
+}
+.textPos2 {
+  transform: translateY(100%);
+} */
+
+.panelWrap {
+  position: relative;
+  overflow: hidden;
+  width: 450px;
+  height: 80vh;
+}
+
+.panel {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  height: 100vh;
+  overflow: hidden;
+  /* background-color: red; */
+  display: flex;
+
+  /* background-color: red;
+  height: 100vh;
+  object-fit: contain; */
+  /* max-width: 100%;
+  height: 100%; */
+}
+.image {
+  height: 80vh;
+  object-fit: contain;
+}
+
+.black {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+.panel.pos0 {
+  z-index: auto;
+}
+.panel.pos1 {
+  z-index: auto;
+}
+.pg {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: gray;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.titre {
+  color: rgb(35, 78, 120);
+  font-weight: 700;
+}

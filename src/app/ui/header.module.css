@@ -1,0 +1,8 @@
+.header {
+  /* background: radial-gradient(#c8c8c7, #fff); */
+
+  display: grid;
+  width: 100%;
+  
+  grid-template-rows: 5vh 4vh 90vh;
+}

@@ -1,0 +1,17 @@
+.navBar {
+  height: 100%;
+  display: flex;
+  padding: 25px;
+  color: black;
+  align-items: center;
+}
+.navBarTitle {
+  margin-right: auto;
+}
+
+.navBarElements {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}

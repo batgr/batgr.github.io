@@ -1,0 +1,21 @@
+.section {
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section p {
+  max-width: 40ch;
+  font-size: 2.5em;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.section span {
+  color: red;
+  font-weight: 700;
+  font-size: 1em;
+}

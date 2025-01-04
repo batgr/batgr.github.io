@@ -1,0 +1,433 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/ui/banner.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.banner_divBanner__nV_F8 {
+  color: black;
+  font-size: 20px;
+
+  overflow: auto;
+  background: linear-gradient(
+    315deg,
+    rgb(248, 248, 248) 3%,
+    rgb(181, 181, 181) 38%,
+    rgb(182, 192, 192) 68%,
+    rgb(247, 237, 237) 98%
+  );
+  animation: banner_gradient__SPOru 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes banner_gradient__SPOru {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.banner_divBanner__nV_F8 p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/ui/heroSection.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.heroSection_heroSection__dJfJf {
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.heroSection_heroDivGifCounter__7WsKE {
+  display: grid;
+  grid-template-columns: 370px;
+  grid-template-rows: 90px 630px;
+}
+
+.heroSection_counter__ptRa5 {
+  width: 250px;
+  border-radius: 25px;
+  grid-row: 1;
+  background-color: white;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSection_counter__ptRa5 > * {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.heroSection_divImage__p3b6O {
+  grid-row: 2;
+  justify-self: center;
+}
+.heroSection_imageGif__OwXya {
+  object-fit: contain;
+  max-width: 100%;
+  height: 100%;
+}
+
+.heroSection_heroInfo__vpzCc {
+  padding: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+  margin-top: 5%;
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  overflow: auto;
+  background: linear-gradient(
+    315deg,
+    rgb(248, 248, 248) 3%,
+    rgb(181, 181, 181) 38%,
+    rgb(182, 192, 192) 68%,
+    rgb(247, 237, 237) 98%
+  );
+  animation: heroSection_gradient__c_hwR 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+@keyframes heroSection_gradient__c_hwR {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.heroSection_heroLogo__Hm2_0 {
+  height: 25%;
+  width: 25%;
+}
+
+.heroSection_heroTitle__0_eHz {
+  margin-bottom: 30px;
+  font-size: medium;
+}
+.heroSection_heroText__nXR2a {
+  max-width: 25ch;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.heroSection_btnFree__vj2vQ {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+  font-size: 1.2em;
+  margin: 30px 30px;
+
+  border-radius: 10px;
+  height: 50px;
+  width: 50%;
+  border-width: 0;
+  cursor: pointer;
+  font-weight: 500;
+  color: white;
+  line-height: 20px;
+  padding: 10px 12px;
+}
+.heroSection_btnFree__vj2vQ:hover {
+  color: #c8c8c7;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/ui/faq.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.faq_container__ncIZP {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  padding: 10px;
+}
+
+.faq_scroller__g4FT6 {
+  overflow-x: scroll;
+  background: transparent;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  padding: 8px;
+  height: -moz-fit-content;
+  height: fit-content;
+  overscroll-behavior-x: contain;
+}
+
+.faq_innerScroller__mqks5 {
+  background: transparent;
+  padding: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  gap: 1.5rem;
+  /* animation: scroll 10s linear infinite; */
+  cursor: pointer;
+}
+.faq_innerScroller__mqks5 :active {
+  cursor: pointer;
+}
+.faq_scroller__g4FT6::-webkit-scrollbar {
+  display: none;
+}
+
+.faq_title__jeJOr {
+  margin: auto;
+  font-size: 3rem;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/ui/card.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.card_card__vcRU5 {
+  min-height: 400px;
+  min-width: 750px;
+
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  /* box-shadow: 0px 0px 8px 5px rgb(245, 245, 245); */
+  box-shadow: 0px 5px 15px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.card_ul__4N4fR {
+  display: flex;
+  padding-top: 20px;
+  /* background-color: rebeccapurple; */
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 600;
+  /* flex-wrap: wrap; */
+}
+.card_question__5xWii {
+  font-weight: 800;
+  color: rgb(35, 78, 120);
+}
+.card_card__vcRU5 h3 {
+  margin: auto;
+  color: gray;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/ui/featuresParallax.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.featuresParallax_scroller__AXMmE {
+  height: 100vh;
+  width: 100vw;
+}
+
+.featuresParallax_textWrap__R9DPu {
+  position: relative;
+  overflow: hidden;
+  width: 450px;
+  height: 80vh;
+}
+
+.featuresParallax_panelText__NZELy {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  /* background-color: #070707; */
+  /* opacity: 0; */
+  /* transform: translateY(100%); */
+  /* opacity: 0; */
+  /* transform: translateY(20%); */
+}
+.featuresParallax_list__xkM0D {
+  list-style: none;
+  font-size: 0.5em;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 2px 2px rgb(246, 245, 245);
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featuresParallax_textPos1__DEVhe {
+  transform: translateY(100%);
+}
+.featuresParallax_textPos2__vu8D3 {
+  transform: translateY(200%);
+}
+/* .textPos0 {
+  transform: translateY(30%);
+}
+.textPos1 {
+  transform: translateY(100%);
+}
+.textPos2 {
+  transform: translateY(100%);
+} */
+
+.featuresParallax_panelWrap__zRE2p {
+  position: relative;
+  overflow: hidden;
+  width: 450px;
+  height: 80vh;
+}
+
+.featuresParallax_panel__CKOmF {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  height: 100vh;
+  overflow: hidden;
+  /* background-color: red; */
+  display: flex;
+
+  /* background-color: red;
+  height: 100vh;
+  object-fit: contain; */
+  /* max-width: 100%;
+  height: 100%; */
+}
+.featuresParallax_image__kL5FW {
+  height: 80vh;
+  object-fit: contain;
+}
+
+.featuresParallax_black__3e7vI {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+.featuresParallax_panel__CKOmF.featuresParallax_pos0__Yv4PG {
+  z-index: auto;
+}
+.featuresParallax_panel__CKOmF.featuresParallax_pos1__OLnQA {
+  z-index: auto;
+}
+.featuresParallax_pg__gPFE_ {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: gray;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.featuresParallax_titre__8_qwY {
+  color: rgb(35, 78, 120);
+  font-weight: 700;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/ui/sectionIntro.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.sectionIntro_section__JR8m6 {
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionIntro_section__JR8m6 p {
+  max-width: 40ch;
+  font-size: 2.5em;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.sectionIntro_section__JR8m6 span {
+  color: red;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/ui/navbar.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_navBar__RtY0N {
+  height: 100%;
+  display: flex;
+  padding: 25px;
+  color: black;
+  align-items: center;
+}
+.navbar_navBarTitle__ZS_IJ {
+  margin-right: auto;
+}
+
+.navbar_navBarElements__2yCjk {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/ui/header.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.header_header__12IQT {
+  /* background: radial-gradient(#c8c8c7, #fff); */
+
+  display: grid;
+  width: 100%;
+  
+  grid-template-rows: 5vh 4vh 90vh;
+}
+

@@ -1,0 +1,36 @@
+.divBanner {
+  color: black;
+  font-size: 20px;
+
+  overflow: auto;
+  background: linear-gradient(
+    315deg,
+    rgb(248, 248, 248) 3%,
+    rgb(181, 181, 181) 38%,
+    rgb(182, 192, 192) 68%,
+    rgb(247, 237, 237) 98%
+  );
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.divBanner p {
+  font-size: 15px;
+  font-weight: 400;
+}

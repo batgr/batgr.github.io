@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  padding: 10px;
+}
+
+.scroller {
+  overflow-x: scroll;
+  background: transparent;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  padding: 8px;
+  height: fit-content;
+  overscroll-behavior-x: contain;
+}
+
+.innerScroller {
+  background: transparent;
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  gap: 1.5rem;
+  /* animation: scroll 10s linear infinite; */
+  cursor: pointer;
+}
+.innerScroller :active {
+  cursor: pointer;
+}
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  margin: auto;
+  font-size: 3rem;
+}
